@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 
 //conectar com o banco de dados revisao 
 const conexao = ()=>{
-    mongoose.connect('mongodb+srv://userRevisao:thi020206@cluster0.s3hds.mongodb.net/revisao')
+    mongoose.connect('mongodb+srv://userRevisao:revisao@fiaptecnico.yk90q.mongodb.net/revisao')
 }
 //conectar com a collection infos 
 const modelo = new mongoose.Schema({
